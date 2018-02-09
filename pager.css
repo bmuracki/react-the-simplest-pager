@@ -1,0 +1,28 @@
+.pager {
+    margin:0 auto;
+    margin-top:20px;
+    padding:20px;
+    text-align: center;
+    width:50%;
+}
+
+.pager span {
+    padding:10px;
+}
+
+.pager span.page {
+    border-radius: 3px;
+    display:inline-block;
+    margin:2px;
+    width:20px;
+}
+.pager span.page:hover {
+    background-color:orange;
+    color:white;
+    cursor:pointer;
+}
+
+.pager span.page-current{
+    background-color:orange;
+    color:white;
+}
